@@ -7,7 +7,7 @@ from wtforms import StringField, SubmitField, SelectField, RadioField
 from wtforms.validators import DataRequired
 
 URL = "https://the-one-api.dev/v2"
-TOKEN = "Bearer u8h3hmGnEzNy4Y3xlB0H"
+TOKEN = "Bearer token"
 HEADERS = {
     'Accept': 'application/json',
     "Authorization": TOKEN
