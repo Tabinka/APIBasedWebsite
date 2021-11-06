@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Papyrus', sans-serif;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./lotr_bg.jpg")  center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin: 30px auto;
+    text-align: center;
+}
+
+#quote{
+    height: 100%;
+    max-height: 600px;
+    background: #483434;
+    color: white;
+    display: flex;
+    padding: 50px 0;
+}
+
+.quote{
+    max-width: 700px;
+    margin: auto;
+}
+
+.quote .text{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
+
+.quote .name{
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+.search{
+    max-width: 800px;
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 30%;
+    font-size: 22px;
+}
+
+#search{
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    font-size: 22px;
+    color: white;
+}
+
+#search:focus{
+    box-shadow: none;
+}
+
+.radio{
+    display: inline-block;
+    margin: auto 10px;
+}
+
+form .control-label{
+    display: none;
+}
+
+#submit{
+    float: right;
+}
+
+#main-land{
+    height: 100vh;
+}
+
+#result{
+    height: 100%;
+    background: #212121;
+    color: white;
+    padding: 100px 0;
+}
+
+#result .wrapper{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#result .item{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#result .item p{
+    flex: 30%;
+    margin: auto;
+}
